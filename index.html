@@ -1,0 +1,322 @@
+
+<html>
+<head>
+    <title> ТОПЫ МЕГАРЕВИТА </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #textcentr {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50;
+            font-family: "Sofia", sans-serif;
+            color: blue;
+            text-shadow: 0 0 3px #a9a9a9, 0 0 5px #a9a9a9;
+        }
+
+        #описание {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50;
+            font-family: "Sofia", sans-serif;
+            color: blue;
+            text-shadow: 0 0 3px #a9a9a9, 0 0 5px #a9a9a9;
+        }
+
+        #примеры {
+            position: absolute;
+            top: -10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50;
+            font-family: "Sofia", sans-serif;
+            color: blue;
+            text-shadow: 0 0 3px #a9a9a9, 0 0 5px #a9a9a9;
+        }
+
+        #работники {
+            position: absolute;
+            top: 175%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50;
+            font-family: "Sofia", sans-serif;
+            color: blue;
+            text-shadow: 0 0 3px #a9a9a9, 0 0 5px #a9a9a9;
+        }
+
+        #заказ {
+            position: absolute;
+            top: 240%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50;
+            font-family: "Sofia", sans-serif;
+            color: blue;
+            text-shadow: 0 0 3px #a9a9a9, 0 0 5px #a9a9a9;
+        }
+
+        #centertext {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: "Sofia", sans-serif;
+            font-size: 25;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+            .navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .navbar a:hover {
+                    background: #ddd;
+                    color: black;
+                }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+        }
+
+        .gr_header {
+            grid-area: header;
+            background: green;
+        }
+
+        .gr_left {
+            grid-area: left;
+            background: dodgerblue
+        }
+
+        .gr_right {
+            grid-area: right;
+            background: forestgreen;
+        }
+
+        .gr_main {
+            grid-area: main;
+            background: darkslateblue;
+        }
+
+        .gr_left1 {
+            grid-area: left1;
+            background: dodgerblue
+        }
+
+        .gr_right1 {
+            grid-area: right1;
+            background: forestgreen;
+        }
+
+        .gr_main1 {
+            grid-area: main1;
+            background: darkslateblue;
+        }
+
+        .gr_left2 {
+            grid-area: left2;
+            background: dodgerblue
+        }
+
+        .gr_right2 {
+            grid-area: right2;
+            background: forestgreen;
+        }
+
+        .gr_main2 {
+            grid-area: main2;
+            background: darkslateblue;
+        }
+
+        .gr_clear {
+            grid-area: clear;
+            background: deeppink;
+        }
+
+        .gr {
+            display: grid;
+            grid-template-areas: "header header header "
+                "clear clear clear"
+                "left main right"
+                "footer footer footer";
+            grid-template-columns: 500px 1fr 500px;
+            grid-template-rows: 500px 150px 500px 150px 500px 150px 500px;
+            min-height: 3500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#news">Описание</a>
+        <a href="#contact">Примеры работ</a>
+        <a href="#search">Команда</a>
+        <a href="#about">Заказать</a>
+    </div>
+    <div class="gr">
+        <header class="gr_header">
+            <a name="home"></a>
+            <img src="строители.jpg" class="rotate" width=100% height=100%>
+            <div id="textcentr">
+                <t1>ТОПЫ МЕГАРЕВИТА</t1>
+            </div>
+        </header>
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+        <left>
+            <div id="centerphoto">
+                <img src="изометрия 2.jpg" width=100% height=100%>
+            </div>
+        </left>
+
+
+        <main>
+            <div id="centertext">
+                Проффесиональная команда инженеров и проектрировщик проектирующая в приложении Revit
+            </div>
+            <div id="описание">
+                <a name="news"></a>
+                <t1>Описание</t1>
+            </div>
+        </main>
+
+        <right>
+            <img src="изометрия.jpg" width=100% height=100%>
+        </right>
+
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+
+        <left1>
+            <div id="centerphoto">
+                <img src="пример 3.jpg" width=100% height=100%>
+            </div>
+        </left1>
+
+
+        <main1>
+            <div id="centertext">
+                <img src="пример 4.jpg" width=100% height=100%>
+                <div id="примеры">
+                    <t1>Прмимеры работ</t1>
+                    <a name="contact"></a>
+                </div>
+            </div>
+        </main1>
+
+        <right1>
+            <img src="пример 5.jpeg" width=100% height=100%>
+        </right1>
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+        <left2>
+            <div id="centerphoto">
+                <img src="дмитрий.jpg" width=100% height=100%>
+            </div>
+        </left2>
+
+
+        <main2>
+            <div id="centertext">
+                
+                <p>Главный проектеровщик: Сергей Б. ===></p>
+                <p><===Помошник главного инженера: Дмитрий Д.</p>
+            </div>
+            <div id="работники">
+                <a name="search"></a>
+                <t1>Главные инженеры</t1>
+            </div>
+        </main2>
+
+        <right2>
+            <img src="сергей.jpg" width=100% height=100%>
+        </right2>
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+
+        </clear>
+
+
+        <clear>
+            <div id="заказ">
+                <a name="about"></a>
+                <t1>Сделать заказ</t1>
+            </div>
+        </clear>
+
+    </div>
+</body>
+</html>
